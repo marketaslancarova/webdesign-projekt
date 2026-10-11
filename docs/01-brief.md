@@ -124,3 +124,44 @@ Zájemce otevře odkaz ze sociální sítě studia → vidí seznam nadcházejí
 | 8 | Omezení | Jaké údaje od lidí potřebujete a které ne? | Pole formuláře. |
 | 9 | Úspěch | Jak dnes zjišťujete, kolik míst zbývá? | Datový model. |
 | 10 | Úspěch | Co by vás přimělo vrátit se k e-mailům? | Rizika a priority. |
+
+## Potvrzená zjištění
+
+- Rezervace se dnes vyřizují e-mailem a zprávami na sociální síti. (N1)
+- Kapacita kurzu je osm míst. (N4)
+- Platba probíhá na místě. (N6)
+
+## Předpoklady
+
+- Lidé chtějí odpověď hned, ne druhý den. (N2, interpretace)
+- Většina zájemců přichází z mobilu. (nedoloženo)
+
+## Konflikty
+
+- Majitelka chce „co nejméně polí“, ale zároveň telefon pro případ zrušení kurzu. (N7 × N8)
+
+## Otevřené otázky
+
+- Jak často se rezervace ruší? (N9)
+- Co se má stát s místem po zrušení?
+
+## Backlog požadavků
+
+| ID | Požadavek | Zdroj | Priorita |
+|---|---|---|---|
+| R1 | Uživatel vidí u každého termínu počet volných míst. | N1, N3 | musí |
+| R2 | Uživatel si zarezervuje místo zadáním jména a e-mailu. | N7 | musí |
+| R3 | Na plný termín nelze rezervaci odeslat. | N4, N5 | musí |
+| R4 | Uživatel vidí po odeslání potvrzení s názvem a datem kurzu. | N2 | musí |
+| R5 | Uživatel dostane potvrzení e-mailem. | N2 | mělo by |
+| R6 | Uživatel může zadat telefon. | N8 | může |
+| R7 | Uživatel zaplatí online. | N6 | mimo rozsah |
+
+## Akceptační kritéria
+
+1. **Když** uživatel odešle formulář s vyplněným jménem a platným e-mailem na termín s volným místem, **pak** se zobrazí potvrzení s názvem a datem kurzu a počet volných míst u termínu se sníží o jedno.
+2. **Když** má termín nula volných míst, **pak** je u něj text „Obsazeno“ a rezervaci nelze odeslat.
+
+## Další ověřovací krok
+
+Zeptat se majitelky na počet zrušených rezervací za poslední tři kurzy (ověřuje otevřenou otázku z N9).

@@ -46,3 +46,26 @@
 - **Upravené kritérium nebo další krok:** „Uživatel, který aplikaci vidí poprvé, dokončí rezervaci bez pomoci.“ Ověřím pozorováním při testu.
 
 **Lidské rozhodnutí:** do briefu jsem doplnila dvě otevřené otázky a kritérium úspěchu v upravené podobě.
+
+---
+
+## Lekce 3 – třídění poznámek z rozhovoru
+
+**Účel:** roztřídit poznámky na potvrzené informace, předpoklady, konflikty a otevřené otázky. AI nesmí přidávat nové informace ani návrhy řešení.
+
+**Vstupní podklady:** `03-feedback-notes.md`, poznámky N1–N10 bez identifikujících údajů.
+
+**Prompt:** převzat z domácího úkolu lekce 3 („Pracuj pouze s uvedenými poznámkami…“).
+
+**Kontrola výstupu**
+
+| AI item | Source note ID | Decision | Reason |
+|---|---|---|---|
+| Rezervace probíhají e-mailem a zprávami (confirmed) | N1 | accepted | Odpovídá doslovnému výroku. |
+| Kapacita je osm míst (confirmed) | N4 | accepted | Odpovídá doslovnému výroku. |
+| Zákazníci jsou nespokojení s čekáním (confirmed) | N2 | corrected | N2 je moje interpretace, ne výrok. Přeřazeno do předpokladů. |
+| Telefon je povinný údaj (confirmed) | N8 | rejected | N8 říká „hodil by se“ a je v rozporu s N7. Zapsáno jako konflikt. |
+| Není známa četnost rušení (open question) | N9 | accepted | Odpovídá poznámce. |
+| Studio potřebuje platební bránu (assumption) | – | rejected | Žádná poznámka to neuvádí, N6 říká opak. |
+
+**Lidské rozhodnutí:** do briefu jsem přenesla tři potvrzená zjištění, jeden konflikt a jednu otevřenou otázku. Dvě položky AI jsem nepoužila.
