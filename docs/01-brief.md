@@ -51,3 +51,76 @@
 - **Před:** FigJam se jmenoval „Untitled“.
 - **Po:** „Keramika – 01 Research“.
 - **Přínos:** kolega pozná z názvu, ke kterému projektu a fázi prostor patří.
+
+## Stakeholdeři
+
+| Role | Potřeba, rozhodnutí nebo odpovědnost |
+|---|---|
+| Zákazník / zadavatel | Majitelka studia. Potřebuje zaplnit kurzy bez vyřizování e-mailů. |
+| Hlavní uživatel | Zájemce o kurz. Potřebuje vědět, jestli je volno, a mít jistotu místa. |
+| Provozovatel | Majitelka studia. Potřebuje přehled, kdo na který termín přijde. |
+| Správce obsahu | Majitelka studia. Zadává termíny, kapacitu a popisy kurzů. |
+| Osoba rozhodující o prioritách | Majitelka studia. Rozhoduje, co je nutné pro první verzi. |
+
+Jedna osoba zde zastává čtyři role. Rozhodnutí proto zapisujeme podle role, ne podle osoby.
+
+## Cíle a návrhový problém
+
+- **Obchodní cíl:** zaplnit vypsané kurzy bez ručního vyřizování rezervací.
+- **Uživatelský cíl:** rychle zjistit, kdy je volno, a mít potvrzené místo.
+- **Návrhový problém:** zájemce neví, které termíny jsou volné, dokud nenapíše e-mail a nepočká na odpověď.
+
+## Scénář MVP
+
+Zájemce otevře odkaz ze sociální sítě studia → vidí seznam nadcházejících kurzů s datem, cenou a počtem volných míst → vybere termín → vyplní jméno a e-mail → odešle → vidí potvrzení s názvem a datem kurzu.
+
+## Priority
+
+| Položka | Skupina | Zdůvodnění |
+|---|---|---|
+| Seznam termínů s počtem volných míst | nutné pro MVP | Bez něj uživatel v kroku výběru nemá z čeho vybírat. |
+| Rezervační formulář s potvrzením | nutné pro MVP | Bez něj uživatel úkol nedokončí. |
+| Stav „obsazeno“ | nutné pro MVP | Bez něj by šlo rezervovat plný termín. |
+| Platba online | vhodné později | Rezervace funguje i s platbou na místě. |
+| Zrušení rezervace uživatelem | vhodné později | První verze řeší zrušení e-mailem. |
+| Hodnocení lektorů | mimo rozsah | Nesouvisí s hlavním úkolem. |
+| Dárkové poukazy | mimo rozsah | Samostatný scénář s vlastními pravidly. |
+
+## Podmínky
+
+- **Omezení:** aplikace nezpracovává platby ani jiné údaje než jméno a e-mail.
+- **Riziko:** dva lidé si rezervují poslední místo ve stejnou chvíli.
+- **Závislost:** majitelka musí průběžně zadávat termíny a kapacitu.
+- **Předpoklad:** zájemci rezervují večer z mobilu. Zatím nedoloženo.
+- **Otevřená otázka:** jak často se rezervace ruší a co se má stát s uvolněným místem?
+
+## Kritéria úspěchu
+
+### Kritérium úspěchu 1
+- **Scénář nebo požadavek:** hlavní scénář MVP
+- **Kritérium:** uživatel, který aplikaci vidí poprvé, dokončí rezervaci bez pomoci.
+- **Budoucí ověření:** moderovaný test v lekci 24.
+- **Co přesně budeme pozorovat nebo měřit:** zda účastník dojde k potvrzení bez dotazu na moderátora.
+- **Poznámka k předpokladu či omezení:** malý vzorek, výsledek není statistický odhad.
+
+### Kritérium úspěchu 2
+- **Scénář nebo požadavek:** stav „obsazeno“
+- **Kritérium:** na plný termín nelze odeslat rezervaci a uživatel vidí proč.
+- **Budoucí ověření:** ruční test s termínem nastaveným na nula míst.
+- **Co přesně budeme pozorovat nebo měřit:** zda je akce nedostupná a zobrazí se text o obsazenosti.
+- **Poznámka k předpokladu či omezení:** souběh dvou rezervací zatím netestujeme.
+
+## Návrh rozhovoru se zadavatelem
+
+| # | Oblast | Otázka | Které rozhodnutí odpověď ovlivní |
+|---|---|---|---|
+| 1 | Cíle | Co by se mělo po spuštění změnit ve vašem běžném týdnu? | Formulaci obchodního cíle. |
+| 2 | Cíle | Podle čeho poznáte, že se to povedlo? | Kritéria úspěchu. |
+| 3 | Uživatelé | Kdo se na kurzy nejčastěji hlásí a jak se o nich dozví? | Vstupní bod scénáře. |
+| 4 | Uživatelé | Na co se vás lidé ptají, než se přihlásí? | Obsah karty kurzu. |
+| 5 | Obsah | Jaké informace o kurzu dnes lidem posíláte? | Obsahový inventář. |
+| 6 | Obsah | Kdo a jak často bude informace aktualizovat? | Rozsah správy obsahu. |
+| 7 | Omezení | Co se nesmí stát za žádných okolností? | Rizika a chybové stavy. |
+| 8 | Omezení | Jaké údaje od lidí potřebujete a které ne? | Pole formuláře. |
+| 9 | Úspěch | Jak dnes zjišťujete, kolik míst zbývá? | Datový model. |
+| 10 | Úspěch | Co by vás přimělo vrátit se k e-mailům? | Rizika a priority. |
