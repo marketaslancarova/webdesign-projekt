@@ -89,3 +89,21 @@
 - **Rozhodnutí:** odmítám
 - **Důvod:** cílem je porozumět průběhu a důvodům, ne měřit četnost. Dotazník by neodpověděl na výzkumné otázky.
 - **Změna v `02-research-plan.md`:** žádná.
+
+---
+
+## Lekce 5 – oponentura affinity mapy
+
+- **Date:** lekce 5
+- **Tool and mode:** Codex, režim bez zápisu
+- **Anonymization and settings check:** poznámky obsahují jen `source_id`, typ a text bez identifikujících údajů. Zkontrolováno před vložením.
+- **Purpose:** získat alternativní seskupení karet a najít rozpory.
+- **Input scope:** dvanáct poznámek z `pilot-notes.md`.
+- **AI proposal:** (1) sloučit témata 1 a 2 do jednoho „Nejistota“; (2) vytvořit téma „Mobilní uživatelé“ z B-03; (3) označit C-01 jako rozpor s tématem 1.
+- **Decision:**
+  - (1) rejected – čekání na volné místo a nejistota po odeslání jsou dvě různé chvíle na cestě uživatele.
+  - (2) rejected – téma by stálo na jedné kartě a C-03 mu odporuje.
+  - (3) accepted – C-01 doplněna jako výjimka u tématu 1.
+- **Checked against source_id:** A-01, B-01, B-02, B-03, C-01, C-03
+- **Reason:** každé rozhodnutí jsem ověřila proti textu karet.
+- **Contradictions or limits:** AI nabídla téma podložené jedinou kartou. U tří účastníků nelze mluvit o „mobilních uživatelích“ jako o skupině.

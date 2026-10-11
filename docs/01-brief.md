@@ -165,3 +165,9 @@ Zájemce otevře odkaz ze sociální sítě studia → vidí seznam nadcházejí
 ## Další ověřovací krok
 
 Zeptat se majitelky na počet zrušených rezervací za poslední tři kurzy (ověřuje otevřenou otázku z N9).
+
+## Změny po výzkumné syntéze
+
+- **Zpřesnění:** do karty kurzu doplnit, co je v ceně a co si vzít s sebou. Zdroj: téma 3 ve `03-research-findings.md`. Jde o zjištění z malého vzorku.
+- **Zpřesnění:** potvrzení musí být vidět hned na obrazovce, ne jen v e-mailu. Zdroj: téma 2.
+- **Hypotéza, zatím ne požadavek:** lidé rezervují častěji večer. Ponecháno v předpokladech.
