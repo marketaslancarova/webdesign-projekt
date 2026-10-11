@@ -69,3 +69,23 @@
 | Studio potřebuje platební bránu (assumption) | – | rejected | Žádná poznámka to neuvádí, N6 říká opak. |
 
 **Lidské rozhodnutí:** do briefu jsem přenesla tři potvrzená zjištění, jeden konflikt a jednu otevřenou otázku. Dvě položky AI jsem nepoužila.
+
+---
+
+## Lekce 4 – kritika výzkumného plánu
+
+**Účel:** najít naváděcí otázky a nesoulad mezi cílem, otázkami a metodou. AI nesmí vytvářet data, respondenty ani persony.
+
+**Vstupní podklady:** výzkumný cíl, metoda a scénář z `02-research-plan.md`.
+
+**Prompt:** převzat z domácího úkolu lekce 4 („Zkontroluj tento výzkumný cíl, metodu a scénář…“).
+
+- **Připomínka AI nebo kolegy:** otázka „Co vám na tom vadilo?“ předpokládá, že něco vadilo.
+- **Rozhodnutí:** přijímám
+- **Důvod:** shoduje se s tím, co ukázal pilot, účastnice odpověděla „nic“.
+- **Změna v `02-research-plan.md`:** otázka přepsána na „Co bylo nejtěžší nebo nejpomalejší?“
+
+- **Připomínka AI nebo kolegy:** doporučení přidat dotazník pro 50 respondentů.
+- **Rozhodnutí:** odmítám
+- **Důvod:** cílem je porozumět průběhu a důvodům, ne měřit četnost. Dotazník by neodpověděl na výzkumné otázky.
+- **Změna v `02-research-plan.md`:** žádná.
