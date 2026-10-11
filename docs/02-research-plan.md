@@ -16,12 +16,13 @@
 
 ## 3. Výzkumné otázky
 
-| # | Otázka | Vazba na předpoklad | Typ |
-|---|---|---|---|
-| VO1 | Jak lidé naposledy rezervovali jednorázovou volnočasovou aktivitu? | P1, P2 | chování |
-| VO2 | Co je při tom zdrželo nebo odradilo? | P1 | bariéra |
-| VO3 | Podle čeho se rozhodovali, který termín zvolit? | P1 | motivace |
-| VO4 | Kdy a na jakém zařízení rezervaci dělali? | P2 | kontext |
+
+| #   | Otázka                                                               | Vazba na předpoklad | Typ       |
+| --- | --------------------------------------------------------------------- | -------------------- | --------- |
+| VO1 | Jak lidé naposledy rezervovali jednorázovou volnočasovou aktivitu? | P1, P2               | chování |
+| VO2 | Co je při tom zdrželo nebo odradilo?                                | P1                   | bariéra  |
+| VO3 | Podle čeho se rozhodovali, který termín zvolit?                    | P1                   | motivace  |
+| VO4 | Kdy a na jakém zařízení rezervaci dělali?                        | P2                   | kontext   |
 
 ## 4. Metoda a její limit
 
@@ -58,12 +59,14 @@ Malý kvalitativní vzorek nepředstavuje statistický odhad celé populace. Ú�
 **Warm-up:** „Jaké kurzy nebo aktivity jste si v poslední době vyzkoušel/a?“
 
 **Hlavní otázky:**
+
 1. „Popište mi, jak jste se naposledy na nějaký kurz přihlašoval/a, od chvíle, kdy jste se o něm dozvěděl/a.“
 2. „Co bylo na tom přihlašování nejtěžší nebo nejpomalejší?“
 3. „Podle čeho jste vybíral/a termín?“
 4. „Kde a na čem jste to zrovna dělal/a?“
 
 **Neutrální doplňující otázky:**
+
 - „Co se stalo potom?“
 - „Můžete mi to popsat podrobněji?“
 
