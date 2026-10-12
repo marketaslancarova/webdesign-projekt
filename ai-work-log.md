@@ -107,3 +107,26 @@
 - **Checked against source_id:** A-01, B-01, B-02, B-03, C-01, C-03
 - **Reason:** každé rozhodnutí jsem ověřila proti textu karet.
 - **Contradictions or limits:** AI nabídla téma podložené jedinou kartou. U tří účastníků nelze mluvit o „mobilních uživatelích“ jako o skupině.
+
+---
+
+## Lekce 6 – kontrola shrnutí konkurenční analýzy
+
+**Účel:** shrnout shody a rozdíly mezi třemi službami a najít chybějící důkazy. AI nesmí doplňovat nepozorované funkce, metriky ani chování uživatelů.
+
+**Vstupní podklady:** šest anonymizovaných záznamů `record-01` až `record-06` z `docs/audit_matrix.md`, bez názvů služeb a adres.
+
+**Prompt:** převzat z domácího úkolu lekce 6, celý je v `docs/ai_check.md`.
+
+**Kontrola výstupu**
+
+| AI položka | Zdroj | Rozhodnutí | Důvod |
+|---|---|---|---|
+| X a Z ukazují dostupnost přímo v seznamu | record-01, record-06 | corrected | U služby X to odporuje record-01: počet míst je až v detailu. Platí jen pro Z. |
+| Služba X pošle po zaplacení potvrzení e-mailem | – | rejected | Nic jsem nekupovala, v záznamech to není. |
+| Z ponechává vyprodané termíny v seznamu | record-06 | accepted | Odpovídá pozorování. |
+| Y má online přihlášku pro jiné aktivity, pro klub dospělých ne | record-03, record-04 | accepted | Odpovídá pozorováním. |
+| Anglické tlačítko snižuje počet nákupů | – | rejected | Metrika, kterou z veřejného webu nezjistím. |
+| U služby X je počet míst v detailu kurzu | record-02 | accepted | Odpovídá pozorování. |
+
+**Lidské rozhodnutí:** do `docs/competitive_review.md` jsem použila tři podložená tvrzení a jedno opravené. Otázku AI na plný kurz u služby X jsem nedokázala ověřit a zapsala ji do srovnání jako „nezjištěno“.
