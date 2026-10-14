@@ -14,10 +14,11 @@
 
 **Kontrola výstupu**
 
-| AI položka | Zdroj | Rozhodnutí | Důvod |
-|---|---|---|---|
-| Výzkum patří do `docs/` | struktura složky | accepted | Ve složce už je `01-brief.md`, odpovídá to účelu. |
-| Navržený název `research.md` | – | corrected | Použiji číslovaný název podle zadání kurzu. |
+
+| AI položka                    | Zdroj             | Rozhodnutí | Důvod                                                 |
+| ------------------------------ | ----------------- | ----------- | ------------------------------------------------------ |
+| Výzkum patří do`docs/`      | struktura složky | accepted    | Ve složce už je`01-brief.md`, odpovídá to účelu. |
+| Navržený název`research.md` | –               | corrected   | Použiji číslovaný název podle zadání kurzu.     |
 
 **Lidské rozhodnutí:** žádný soubor se nezměnil. Ověřila jsem pohledem do složky, že AI nic nevytvořila.
 
@@ -33,13 +34,15 @@
 
 **Kontrola výstupu**
 
-| AI položka | Zdroj | Rozhodnutí | Důvod |
-|---|---|---|---|
-| „Není jasné, co se stane při zrušení rezervace.“ | brief, podmínky | accepted | Zapsáno jako otevřená otázka. |
-| „Chybí informace, kdo zadává termíny.“ | brief, stakeholdeři | accepted | Doplněna role správce obsahu. |
-| Kritérium „80 % uživatelů dokončí rezervaci do dvou minut“ | žádný | rejected | Číslo nemá oporu v žádných datech a nemáme jak ho měřit. |
+
+| AI položka                                                       | Zdroj                | Rozhodnutí | Důvod                                                            |
+| ----------------------------------------------------------------- | -------------------- | ----------- | ----------------------------------------------------------------- |
+| „Není jasné, co se stane při zrušení rezervace.“           | brief, podmínky     | accepted    | Zapsáno jako otevřená otázka.                                 |
+| „Chybí informace, kdo zadává termíny.“                      | brief, stakeholdeři | accepted    | Doplněna role správce obsahu.                                   |
+| Kritérium „80 % uživatelů dokončí rezervaci do dvou minut“ | žádný             | rejected    | Číslo nemá oporu v žádných datech a nemáme jak ho měřit. |
 
 **Kontrola návrhu AI**
+
 - **Návrh AI:** 80 % uživatelů dokončí rezervaci do dvou minut.
 - **Rozhodnutí:** odmítnuto
 - **Důvod:** vymyšlená hodnota bez metodiky a bez dat.
@@ -59,14 +62,15 @@
 
 **Kontrola výstupu**
 
-| AI item | Source note ID | Decision | Reason |
-|---|---|---|---|
-| Rezervace probíhají e-mailem a zprávami (confirmed) | N1 | accepted | Odpovídá doslovnému výroku. |
-| Kapacita je osm míst (confirmed) | N4 | accepted | Odpovídá doslovnému výroku. |
-| Zákazníci jsou nespokojení s čekáním (confirmed) | N2 | corrected | N2 je moje interpretace, ne výrok. Přeřazeno do předpokladů. |
-| Telefon je povinný údaj (confirmed) | N8 | rejected | N8 říká „hodil by se“ a je v rozporu s N7. Zapsáno jako konflikt. |
-| Není známa četnost rušení (open question) | N9 | accepted | Odpovídá poznámce. |
-| Studio potřebuje platební bránu (assumption) | – | rejected | Žádná poznámka to neuvádí, N6 říká opak. |
+
+| AI item                                                | Source note ID | Decision  | Reason                                                                  |
+| ------------------------------------------------------ | -------------- | --------- | ----------------------------------------------------------------------- |
+| Rezervace probíhají e-mailem a zprávami (confirmed) | N1             | accepted  | Odpovídá doslovnému výroku.                                         |
+| Kapacita je osm míst (confirmed)                      | N4             | accepted  | Odpovídá doslovnému výroku.                                         |
+| Zákazníci jsou nespokojení s čekáním (confirmed) | N2             | corrected | N2 je moje interpretace, ne výrok. Přeřazeno do předpokladů.       |
+| Telefon je povinný údaj (confirmed)                  | N8             | rejected  | N8 říká „hodil by se“ a je v rozporu s N7. Zapsáno jako konflikt. |
+| Není známa četnost rušení (open question)         | N9             | accepted  | Odpovídá poznámce.                                                   |
+| Studio potřebuje platební bránu (assumption)        | –             | rejected  | Žádná poznámka to neuvádí, N6 říká opak.                       |
 
 **Lidské rozhodnutí:** do briefu jsem přenesla tři potvrzená zjištění, jeden konflikt a jednu otevřenou otázku. Dvě položky AI jsem nepoužila.
 
@@ -84,7 +88,6 @@
 - **Rozhodnutí:** přijímám
 - **Důvod:** shoduje se s tím, co ukázal pilot, účastnice odpověděla „nic“.
 - **Změna v `02-research-plan.md`:** otázka přepsána na „Co bylo nejtěžší nebo nejpomalejší?“
-
 - **Připomínka AI nebo kolegy:** doporučení přidat dotazník pro 50 respondentů.
 - **Rozhodnutí:** odmítám
 - **Důvod:** cílem je porozumět průběhu a důvodům, ne měřit četnost. Dotazník by neodpověděl na výzkumné otázky.
@@ -120,13 +123,14 @@
 
 **Kontrola výstupu**
 
-| AI položka | Zdroj | Rozhodnutí | Důvod |
-|---|---|---|---|
-| X a Z ukazují dostupnost přímo v seznamu | record-01, record-06 | corrected | U služby X to odporuje record-01: počet míst je až v detailu. Platí jen pro Z. |
-| Služba X pošle po zaplacení potvrzení e-mailem | – | rejected | Nic jsem nekupovala, v záznamech to není. |
-| Z ponechává vyprodané termíny v seznamu | record-06 | accepted | Odpovídá pozorování. |
-| Y má online přihlášku pro jiné aktivity, pro klub dospělých ne | record-03, record-04 | accepted | Odpovídá pozorováním. |
-| Anglické tlačítko snižuje počet nákupů | – | rejected | Metrika, kterou z veřejného webu nezjistím. |
-| U služby X je počet míst v detailu kurzu | record-02 | accepted | Odpovídá pozorování. |
+
+| AI položka                                                           | Zdroj                | Rozhodnutí | Důvod                                                                              |
+| --------------------------------------------------------------------- | -------------------- | ----------- | ----------------------------------------------------------------------------------- |
+| X a Z ukazují dostupnost přímo v seznamu                           | record-01, record-06 | corrected   | U služby X to odporuje record-01: počet míst je až v detailu. Platí jen pro Z. |
+| Služba X pošle po zaplacení potvrzení e-mailem                    | –                   | rejected    | Nic jsem nekupovala, v záznamech to není.                                         |
+| Z ponechává vyprodané termíny v seznamu                           | record-06            | accepted    | Odpovídá pozorování.                                                            |
+| Y má online přihlášku pro jiné aktivity, pro klub dospělých ne | record-03, record-04 | accepted    | Odpovídá pozorováním.                                                           |
+| Anglické tlačítko snižuje počet nákupů                         | –                   | rejected    | Metrika, kterou z veřejného webu nezjistím.                                      |
+| U služby X je počet míst v detailu kurzu                           | record-02            | accepted    | Odpovídá pozorování.                                                            |
 
 **Lidské rozhodnutí:** do `docs/competitive_review.md` jsem použila tři podložená tvrzení a jedno opravené. Otázku AI na plný kurz u služby X jsem nedokázala ověřit a zapsala ji do srovnání jako „nezjištěno“.
